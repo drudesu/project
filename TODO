@@ -1,3 +1,8 @@
-*build a scaffolding for a 'portfolio' style website
-*create a header and navigation bar
-*create a footer
+*create a reproduction of evan you's personal website www.evanyou.me
+    *simple 'about' style, one page website. snappy, responsive and minimal
+    *research any libraries or frameworks used on the site (probably vue.js and or bootstrap)
+    *post repo on github
+*find font file library to import for the website*
+    >font for family > Rubik, Segoe, Roboto, Oxygen
+
+*
