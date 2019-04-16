@@ -1,8 +1,8 @@
-*create a reproduction of evan you's personal website www.evanyou.me
-    *simple 'about' style, one page website. snappy, responsive and minimal
-    *research any libraries or frameworks used on the site (probably vue.js and or bootstrap)
-    *post repo on github
-*find font file library to import for the website*
-    >font for family > Rubik, Segoe, Roboto, Oxygen
-
-*
+    DONE *create a reproduction of evan you's personal website www.evanyou.me
+    DONE *simple 'about' style, one page website. snappy, responsive and minimal
+    DONE *research any libraries or frameworks used on the site (probably vue.js and or bootstrap)
+    DONE font for family > Rubik, Segoe, Roboto, Oxygen
+*re-write bio a little bit
+*post repo on github
+*upload to hosting site, maybe github
+*research more on "font-size calc", "webkit-font-smoothing", "transition" and "content" tags

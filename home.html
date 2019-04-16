@@ -13,6 +13,7 @@
             font-size: calc(10px + 0.33vw);
             -webkit-font-smoothing: antialiased;
             padding: 5vh 10vw;
+           
         }
 
         h1 {
@@ -21,18 +22,41 @@
             margin-bottom: 0;
         }
 
+        p {
+            font-size: 1.6em;
+            font-weight: 300;
+            line-height: 1.4;
+            max-width: 26em;
+        }
 
+        a {
+            text-decoration: none;
+            position: relative;
+            color: #000000;
+        }
+
+        a:after {
+            content: "";
+            position: absolute;
+            z-index: 1;
+            top: 70%;
+            left: -0.1em;
+            right: -0.1em;
+            bottom: 0;
+            transition: top 200ms cubic-bezier(0, .8, .13, 1);
+            background-color: rgba(152, 255, 255, 0.6);
+        }
+
+        a:hover:after {
+            top: 0%;
+        }
     </style>
 </head>
 <body>
 <h1>Hello.</h1>
-<h2>My name is Andrew Moreno.</h2>
-<p>I am a self-taught front-end developer based in Toronto, Ontario. </p>
-<p>You can find me online on <a href="#">instagram</a>, <a href="#">linkedin</a>, and <a href="#">github</a></p>
-<p>Outside of programming, I am an avid foodie, appreciator of wines, a photographer, and a lover of video games.</p>
-</body>
-
-
-
+<h2 style="font-weight:500; font-size:2.2em">My name is Andrew Moreno.</h2>
+<p>I am a self-taught front-end developer based in Toronto, Ontario and an occasional sayer of funny things.</p>
+<p>You can find me online on <a href="https://www.instagram.com/drudesu/" target="_blank">instagram</a>, <a href="https://www.linkedin.com/in/drudesu/" target="blank">linkedin</a>, and <a href="https://github.com/drudesu" target="_blank">github</a>. I also have a website for my photography which you can find <a href="www.andrewmoreno.ca" target="_blank">here</a>.
+<p>When I'm not coding you can find me taking pictures, eating food, appreciating wines or getting lost in a video game.</p>
 </footer>
 </html>
