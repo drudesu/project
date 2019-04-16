@@ -6,3 +6,4 @@
 *post repo on github
 *upload to hosting site, maybe github
 *research more on "font-size calc", "webkit-font-smoothing", "transition" and "content" tags
+*impliment a 'motivate me' button, should open a modal on-click with a javascript generated, well designed quote.
